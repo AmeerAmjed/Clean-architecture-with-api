@@ -1,0 +1,16 @@
+{
+    "version": "",
+    "api": {
+        "status": "production",
+        "baseurl": {
+            "production": "https://jsonplaceholder.typicode.com",
+            "local": "",
+            "staging": ""
+        },
+        "prefix": ""
+    },
+    "resources": {
+        "User": "/users",
+        "Post": "/posts"
+    }
+}
