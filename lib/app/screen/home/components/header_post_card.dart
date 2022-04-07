@@ -26,7 +26,7 @@ class HeaderPostCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                post.user!.name,
+                post.user?.name ?? 'Not found user',
                 style: const TextStyle(
                   fontWeight: FontWeight.w600,
                 ),

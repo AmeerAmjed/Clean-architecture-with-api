@@ -19,7 +19,6 @@ class Post extends Model {
       data['title'],
       data['body'],
       data['user'] != null
-          //  && data['userId'] == data['user']['id']
           ? User.fromJson(data['user'])
           : null,
     );

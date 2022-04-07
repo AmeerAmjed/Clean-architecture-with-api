@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:api/app/screen/home/components/header_post_card.dart';
 import 'package:api/base/model/post.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +13,6 @@ class PostContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      // color: Colors.amberAccent.shade100,
       margin: const EdgeInsets.symmetric(
         vertical: 5.0,
         horizontal: 10.0,
